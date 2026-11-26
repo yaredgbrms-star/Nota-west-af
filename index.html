@@ -95,13 +95,16 @@ body{background:#080807;color:#eeeae2;font-family:'DM Sans',sans-serif}
 @media(max-width:1000px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.product-art{height:300px}}
 @media(max-width:760px){.hero,.hero-copy{min-height:370px}.hero-copy{padding:55px 5vw 40px}.hero h1{font-size:88px}.section{padding:35px 4vw 65px}.grid{grid-template-columns:1fr 1fr;gap:10px}.product-art{height:230px}.product-info h3{font-size:14px}.price{font-size:14px}.navlinks{gap:12px}}
 
-/* Product crops extracted from the approved second visual */
-.product-art{position:relative;overflow:hidden}
-.product-art img{position:absolute;display:block;width:200%;height:200%;max-width:none;object-fit:fill;padding:0;filter:contrast(1.05) saturate(.86)}
-.product:nth-child(1) .product-art img{left:-100%;top:-100%}
-.product:nth-child(2) .product-art img{left:0;top:-100%}
-.product:nth-child(3) .product-art img{left:-100%;top:0}
-.product:nth-child(4) .product-art img{left:0;top:0}
+/* Product framing: each product uses its own quadrant, in the correct order */
+.product-art{position:relative;overflow:hidden;height:330px;background:#100e0b}
+.product-art img{position:absolute;display:block;width:200%;height:200%;max-width:none;object-fit:fill;padding:0;filter:none;image-rendering:auto}
+.product:nth-child(1) .product-art img{left:0;top:0}
+.product:nth-child(2) .product-art img{left:-100%;top:0}
+.product:nth-child(3) .product-art img{left:0;top:-100%}
+.product:nth-child(4) .product-art img{left:-100%;top:-100%}
+.product:hover .product-art img{transform:none}
+@media(max-width:1000px){.product-art{height:300px}}
+@media(max-width:760px){.product-art{height:230px}}
 /* deployment refresh: NOTA product cards */
 </style>
 </head>
