@@ -57,15 +57,52 @@ body{background:#080807;color:#eeeae2;font-family:'DM Sans',sans-serif}
 .drawerbox{background:#100e0b}.checkout{background:#8c6a3f;border-color:#8c6a3f;color:#080807}
 @media(max-width:1000px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.product-art{height:320px}}
 @media(max-width:760px){.nav{height:72px}.navlinks{gap:16px}.hero{grid-template-columns:1fr}.hero-copy{padding:75px 8vw 55px}.hero-art{min-height:360px}.grid{grid-template-columns:1fr 1fr;gap:10px}.product{padding:7px}.product-art{height:240px}.section{padding:70px 5vw}.sectionhead{flex-direction:column}.manifesto{padding:80px 7vw}}
+
+/* Cinematic premium direction — reference 02 */
+.announcement{background:#090806;color:#b9975f;border-bottom:1px solid #4a3923}
+.nav{height:78px;padding:0 4vw}
+.nav .logo{color:#c49b54;font-size:29px}
+.hero{min-height:420px;display:block;position:relative;text-align:center;border-bottom:0;background:#090806}
+.hero-copy{position:relative;z-index:2;min-height:420px;padding:62px 6vw 50px;align-items:center;justify-content:center}
+.hero-copy .eyebrow{letter-spacing:.5em;color:#c7a66b}
+.hero h1{font:800 clamp(76px,10vw,130px)/.78 'Barlow Condensed';letter-spacing:.02em;margin:22px 0 16px;color:#c39a50}
+.hero h1 span{display:none}
+.hero p{max-width:none;color:#e0d9cc;letter-spacing:.28em;text-transform:uppercase;font-size:11px;margin:10px 0 22px}
+.hero-art{position:absolute;inset:0;min-height:100%;opacity:.46;background:#15110c}
+.hero-art img{opacity:.5;filter:brightness(.48) contrast(1.2) saturate(.55)}
+.hero-art:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#050505aa,#05050544 45%,#050505aa),linear-gradient(0deg,#080807 0%,transparent 50%,#08080755)}
+.hero-art .fighter{display:none}
+.cta{padding:13px 24px;background:#17120c;border-color:#8d6b36;color:#d2ad6d}
+.marquee{background:#080807;border-top:1px solid #2e2418;border-bottom:1px solid #2e2418;color:#c5a36a}
+.section{padding:38px 3.4vw 85px}
+.sectionhead{justify-content:center;text-align:center;margin:0 0 28px}
+.sectionhead h2{font:700 35px 'Barlow Condensed';letter-spacing:.16em;text-transform:uppercase}
+.sectionhead p{display:none}
+.grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.product{background:linear-gradient(160deg,#11100e,#050505);border:1px solid #46351f;border-radius:10px;padding:9px 9px 16px;overflow:hidden}
+.product-art{height:330px;background:radial-gradient(ellipse at 50% 70%,#383026 0%,#17130e 44%,#080807 100%);border:0;border-radius:6px}
+.product-art img{object-fit:contain;padding:10px;filter:contrast(1.05) saturate(.86)}
+.product-art:after{display:none}
+.tag{background:#16120c;color:#c8a466;border:1px solid #604b2e;border-radius:2px}
+.product-info{min-height:82px;align-items:center;padding:13px 8px 12px;flex-direction:column;text-align:center;gap:5px}
+.product-info h3{font:600 18px 'DM Sans';letter-spacing:0;color:#f1ece3;text-transform:none}
+.product-info p{display:none}
+.price{font-size:16px;color:#c99d4d;font-weight:600}
+.add{border:1px solid #b18439;border-radius:5px;color:#eee5d5;background:linear-gradient(180deg,#21190e,#0b0906);font-size:10px;letter-spacing:.08em;padding:13px 6px}
+.add:hover{background:#a77b32;color:#080706;border-color:#d3ad64}
+.manifesto{background:#090807;border-top:1px solid #332719;color:#eee8dd}
+.manifesto h2{color:#c7a15e}
+@media(max-width:1000px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.product-art{height:300px}}
+@media(max-width:760px){.hero,.hero-copy{min-height:370px}.hero-copy{padding:55px 5vw 40px}.hero h1{font-size:88px}.section{padding:35px 4vw 65px}.grid{grid-template-columns:1fr 1fr;gap:10px}.product-art{height:230px}.product-info h3{font-size:14px}.price{font-size:14px}.navlinks{gap:12px}}
 </style>
 </head>
 <body>
 <div class="announcement">NOTA WEST AF® · FIGHTWEAR & STREET CULTURE · LIMITED DROP</div>
 <header class="nav"><a class="logo" href="#">NOTA WEST AF<span>®</span></a><nav class="navlinks"><a href="#shop">Shop</a><a href="#story">Our mindset</a></nav><button class="cartbtn" id="openCart">BAG (<span id="count">0</span>)</button></header>
 <main>
-<section class="hero"><div class="hero-copy"><div class="eyebrow">Independent fightwear label · Est. 2026</div><h1>Earn<br><span>your</span><br>place.</h1><p>Built on discipline. Defined by attitude. NOTA WEST AF® brings fight culture into everyday streetwear.</p><a class="cta" href="#shop">Discover the drop ↗</a></div><div class="hero-art"><img src="images/DSC01427.jpeg" alt="Athlète NOTA WEST AF portant la tenue de la marque"><div class="fighter"></div></div></section>
+<section class="hero"><div class="hero-copy"><div class="eyebrow">NOTA WEST AF® · PRESENTS</div><h1>COLLECTION<br>MMA</h1><p>PERFORMANCE&nbsp; • &nbsp;CONFORT&nbsp; • &nbsp;RÉSISTANCE</p><a class="cta" href="#shop">Découvrir la collection ↗</a></div><div class="hero-art"><img src="images/DSC01427.jpeg" alt="Athlète NOTA WEST AF portant la tenue de la marque"><div class="fighter"></div></div></section>
 <div class="marquee"><span>DISCIPLINE OVER EVERYTHING</span> ✳ <span>NO SHORTCUTS</span> ✳ <span>NOTA WEST AF®</span> ✳ <span>BUILT DIFFERENT</span> ✳</div>
-<section class="section" id="shop"><div class="sectionhead"><div><div class="eyebrow">The first collection</div><h2>Fightwear collection</h2></div><p>Swiss pricing · Limited first drop</p></div>
+<section class="section" id="shop"><div class="sectionhead"><div><div class="eyebrow">NOTA WEST AF® · DROP 001</div><h2>La collection</h2></div><p>Swiss pricing · Limited first drop</p></div>
 <div class="grid">
 <article class="product"><div class="product-art"><img src="images/IMG_5914.jpeg" alt="Gants de boxe NOTA noirs et dorés"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>Boxing Gloves</h3><p>Gants de boxe noir & or · Collection combat</p></div><div class="price">CHF 69.–</div></div><button class="add" data-product="Boxing Gloves — CHF 69">Add to bag</button></article>
 <article class="product"><div class="product-art"><img src="images/IMG_5916.jpeg" alt="Short MMA NOTA noir et or"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>MMA Shorts</h3><p>Short de combat noir & or</p></div><div class="price">CHF 49.–</div></div><button class="add" data-product="MMA Shorts — CHF 49">Add to bag</button></article>
