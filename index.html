@@ -94,6 +94,14 @@ body{background:#080807;color:#eeeae2;font-family:'DM Sans',sans-serif}
 .manifesto h2{color:#c7a15e}
 @media(max-width:1000px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.product-art{height:300px}}
 @media(max-width:760px){.hero,.hero-copy{min-height:370px}.hero-copy{padding:55px 5vw 40px}.hero h1{font-size:88px}.section{padding:35px 4vw 65px}.grid{grid-template-columns:1fr 1fr;gap:10px}.product-art{height:230px}.product-info h3{font-size:14px}.price{font-size:14px}.navlinks{gap:12px}}
+
+/* Product crops extracted from the approved second visual */
+.product-art{position:relative;overflow:hidden}
+.product-art img{position:absolute;display:block;width:200%;height:200%;max-width:none;object-fit:fill;padding:0;filter:contrast(1.05) saturate(.86)}
+.product:nth-child(1) .product-art img{left:-100%;top:-100%}
+.product:nth-child(2) .product-art img{left:0;top:-100%}
+.product:nth-child(3) .product-art img{left:-100%;top:0}
+.product:nth-child(4) .product-art img{left:0;top:0}
 </style>
 </head>
 <body>
@@ -104,10 +112,10 @@ body{background:#080807;color:#eeeae2;font-family:'DM Sans',sans-serif}
 <div class="marquee"><span>DISCIPLINE OVER EVERYTHING</span> ✳ <span>NO SHORTCUTS</span> ✳ <span>NOTA WEST AF®</span> ✳ <span>BUILT DIFFERENT</span> ✳</div>
 <section class="section" id="shop"><div class="sectionhead"><div><div class="eyebrow">NOTA WEST AF® · DROP 001</div><h2>La collection</h2></div><p>Swiss pricing · Limited first drop</p></div>
 <div class="grid">
-<article class="product"><div class="product-art"><img src="images/IMG_5914.jpeg" alt="Gants de boxe NOTA noirs et dorés"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>Boxing Gloves</h3><p>Gants de boxe noir & or · Collection combat</p></div><div class="price">CHF 69.–</div></div><button class="add" data-product="Boxing Gloves — CHF 69">Add to bag</button></article>
-<article class="product"><div class="product-art"><img src="images/IMG_5916.jpeg" alt="Short MMA NOTA noir et or"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>MMA Shorts</h3><p>Short de combat noir & or</p></div><div class="price">CHF 49.–</div></div><button class="add" data-product="MMA Shorts — CHF 49">Add to bag</button></article>
-<article class="product"><div class="product-art"><img src="images/IMG_5917.jpeg" alt="Débardeur technique NOTA noir et or"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>Fightwear Tank</h3><p>Débardeur technique</p></div><div class="price">CHF 29.–</div></div><button class="add" data-product="Fightwear Tank — CHF 29">Add to bag</button></article>
-<article class="product"><div class="product-art"><img src="images/DSC01427.jpeg" alt="T-shirt NOTA WEST AF porté, vue de référence"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>Performance T-Shirt</h3><p>T-shirt noir NOTA · visuel original</p></div><div class="price">CHF 39.–</div></div><button class="add" data-product="Performance T-Shirt — CHF 39">Add to bag</button></article>
+<article class="product"><div class="product-art"><img src="images/products-grid.jpg" alt="Gants de boxe NOTA noirs et dorés"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>Boxing Gloves</h3><p>Gants de boxe noir & or · Collection combat</p></div><div class="price">CHF 69.–</div></div><button class="add" data-product="Boxing Gloves — CHF 69">Add to bag</button></article>
+<article class="product"><div class="product-art"><img src="images/products-grid.jpg" alt="Short MMA NOTA noir et or"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>MMA Shorts</h3><p>Short de combat noir & or</p></div><div class="price">CHF 49.–</div></div><button class="add" data-product="MMA Shorts — CHF 49">Add to bag</button></article>
+<article class="product"><div class="product-art"><img src="images/products-grid.jpg" alt="Débardeur technique NOTA noir et or"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>Fightwear Tank</h3><p>Débardeur technique</p></div><div class="price">CHF 29.–</div></div><button class="add" data-product="Fightwear Tank — CHF 29">Add to bag</button></article>
+<article class="product"><div class="product-art"><img src="images/products-grid.jpg" alt="T-shirt Performance NOTA WEST AF"><span class="tag">DROP 001</span></div><div class="product-info"><div><h3>Performance T-Shirt</h3><p>T-shirt noir NOTA · visuel original</p></div><div class="price">CHF 39.–</div></div><button class="add" data-product="Performance T-Shirt — CHF 39">Add to bag</button></article>
 </div></section>
 <section class="manifesto" id="story"><div class="eyebrow">More than clothing</div><h2>Discipline is the difference.</h2><p>For those who show up, put in the work and keep moving forward. NOTA WEST AF® is a mindset before it is a label.</p></section>
 </main>
